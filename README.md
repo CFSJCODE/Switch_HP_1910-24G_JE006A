@@ -11,7 +11,7 @@
 
 Configuração, backups, capturas de CLI e histórico de alterações do switch gerenciável que atende o CPD. Tudo aqui foi coletado em modo somente leitura (SSH ou console) e serve como referência para auditoria e restauração.
 
-> **Dados sensíveis redigidos.** Este repositório é público. A community SNMP, a senha do usuário `admin` e a senha do `_cmdline-mode` foram trocadas por `<REDACTED>` em todas as cópias versionadas. Certificados (`.p12`), firmware (`.bin`) e o manual da HPE (`.pdf`) ficam fora do Git pelo [`.gitignore`](.gitignore). Os originais completos existem apenas na máquina local.
+> **Dados sensíveis redigidos.** Este repositório é público. A community SNMP, a senha do usuário `admin` e a senha do `_cmdline-mode` foram trocadas por `<REDACTED>` em todas as cópias versionadas. Certificados (`.p12`) e firmware (`.bin`) ficam fora do Git pelo [`.gitignore`](.gitignore). Os originais completos existem apenas na máquina local.
 
 ## Sumário
 
@@ -98,6 +98,7 @@ Configuração global relevante:
 │   ├── atual/                # current-configuration, saved-configuration e startup.cfg
 │   └── backups-flash/        # cópias dos .cfg de backup existentes na flash do switch
 ├── docs/
+│   ├── HPE_c02965327_...pdf  # HP 1910 Gigabit Ethernet Switch Series User Guide (R1513)
 │   └── projeto-SWPZCPD01/    # levantamento inicial, comandos usados e resumos das alterações
 ├── logs/                     # logbuffer do switch e sessão do ajuste de energia/portas
 ├── scripts/                  # captura somente leitura (console serial e SSH)
@@ -206,4 +207,4 @@ A captura em `captura/2026-10-11/` foi feita às 02:36 BRT, antes do reboot, por
 
 ## Licença
 
-Scripts e documentação sob a licença [MIT](LICENSE). Comware e o manual do equipamento são da Hewlett Packard Enterprise.
+Scripts e documentação sob a licença [MIT](LICENSE). Comware e o manual do equipamento ([`docs/`](docs/), User Guide R1513) são da Hewlett Packard Enterprise e não estão cobertos pela licença MIT.
