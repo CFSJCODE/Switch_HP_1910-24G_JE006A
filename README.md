@@ -5,6 +5,8 @@
 [![Modelo](https://img.shields.io/badge/modelo-JE006A%2024G%2B4SFP-555555)](captura/2026-10-11/display_device_manuinfo.txt)
 [![Status](https://img.shields.io/badge/status-em%20produ%C3%A7%C3%A3o-brightgreen)](#estado-atual)
 [![Último backup](https://img.shields.io/badge/%C3%BAltimo%20backup-2026--10--11-blue)](config/backups-flash/)
+[![Última captura](https://img.shields.io/badge/%C3%BAltima%20captura-2026--10--11-blue)](captura/2026-10-11/)
+[![Manual](https://img.shields.io/badge/manual-User%20Guide%20R1513-0096D6?logo=adobeacrobatreader&logoColor=white)](#documentação)
 [![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-yellow)](LICENSE)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1-5391FE?logo=powershell&logoColor=white)](scripts/hp1910-capture.ps1)
 [![SSH](https://img.shields.io/badge/SSH-paramiko%203.5.1-3776AB?logo=python&logoColor=white)](scripts/hp1910_ssh_capture_readonly.py)
@@ -23,6 +25,7 @@ Configuração, backups, capturas de CLI e histórico de alterações do switch 
 - [Restaurar um backup](#restaurar-um-backup)
 - [Histórico de alterações](#histórico-de-alterações)
 - [Pendências](#pendências)
+- [Documentação](#documentação)
 - [Segurança](#segurança)
 
 ## Identificação
@@ -60,7 +63,7 @@ Rede única em VLAN 1 (`192.168.0.0/24`), sem trunks.
 
 ## Estado atual
 
-Verificado em 2026-10-11 por [`display interface brief`](captura/2026-10-11/display_interface_brief.txt) e [`display current-configuration`](config/atual/display_current-configuration.txt).
+Verificado em 2026-10-11 às 02:36 BRT, antes do reboot das 02:41. A configuração já estava salva em `flash:/startup.cfg`, então o switch voltou do reboot com o mesmo estado; só o uptime e os contadores das interfaces foram zerados. Fontes: [`display interface brief`](captura/2026-10-11/display_interface_brief.txt) e [`display current-configuration`](config/atual/display_current-configuration.txt).
 
 | Porta | Descrição | Estado | Velocidade | Observações |
 |---|---|---|---|---|
@@ -197,6 +200,16 @@ A captura em `captura/2026-10-11/` foi feita às 02:36 BRT, antes do reboot, por
 
 - **Arquivos do laptop 6006U**: `ajuste_switch_hp1910.ps1`, o log correspondente e `change_mask.ps1` ainda não foram trazidos (o 6006U estava offline no Tailscale em 2026-10-11). Quando voltar, copiar para `scripts/` e `logs/`.
 - **GE1/0/5 a 100 Mbps**: o PC i5-3330 negociou 100M na captura. Conferir a 1 Gbps com o PC ligado; se continuar em 100M, trocar o cabo ou verificar a placa de rede.
+
+## Documentação
+
+| Documento | Conteúdo |
+|---|---|
+| [HP 1910 Gigabit Ethernet Switch Series User Guide (R1513)](docs/HPE_c02965327_HP%201910%20Gigabit%20Ethernet%20Switch%20Series%20User%20Guide-R1513.pdf) | Manual oficial da HPE (documento c02965327, 8 MB) para a mesma release de firmware em uso: interface web, VLAN, STP, SNMP, LLDP, SSH, HTTPS, gerência de arquivos e atualização de software |
+| [`docs/projeto-SWPZCPD01/SWPZCPD01_comandos_e_resumo-20261010T224329-dab9.md`](docs/projeto-SWPZCPD01/SWPZCPD01_comandos_e_resumo-20261010T224329-dab9.md) | Versão mais recente do levantamento: comandos usados, decisões e como desfazer cada alteração de 2026-10-10 |
+| [`docs/projeto-SWPZCPD01/SWPZCPD01_captura_2026-10-10.txt`](docs/projeto-SWPZCPD01/SWPZCPD01_captura_2026-10-10.txt) | Estado original do switch antes de qualquer alteração (VLAN 111, IP `192.168.1.50/22`) |
+
+Os outros `SWPZCPD01_comandos_e_resumo*.md` são versões anteriores do mesmo resumo, mantidas como histórico.
 
 ## Segurança
 
