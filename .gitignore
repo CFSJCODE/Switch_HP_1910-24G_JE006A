@@ -1,0 +1,18 @@
+# Certificados e chaves privadas (ex.: flash:/https-server.p12)
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Firmware Comware (flash:/v1910-cmw520-r1513p62.bin, 14 MB)
+*.bin
+
+# Manual da HPE (material de terceiros, baixar no site da HPE)
+docs/*.pdf
+
+# Saidas locais dos scripts de captura
+hp1910-capture*.txt
+
+# Lixo do Windows
+Thumbs.db
+desktop.ini
