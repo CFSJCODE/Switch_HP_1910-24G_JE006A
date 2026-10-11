@@ -1,0 +1,522 @@
+display logbuffer
+Logging buffer configuration and contents:enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 1010
+Current messages : 512
+
+%Oct 11 00:21:29:646 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is _cmdline-mode on
+%Oct 11 00:21:38:872 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is screen-length disable
+%Oct 11 00:21:41:010 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is dir
+%Oct 11 00:21:47:171 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is display startup
+%Oct 11 00:21:53:349 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is display saved-configuration
+%Oct 11 00:21:59:488 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is display clock
+%Oct 11 00:22:05:538 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:22:06:119 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from aux0.
+%Oct 11 00:25:06:275 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 00:25:06:276 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 00:25:06:276 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 00:25:06:277 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 00:25:06:278 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 00:25:06:279 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 00:25:06:567 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from aux0.
+%Oct 11 00:25:09:336 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is _cmdline-mode on
+%Oct 11 00:25:18:511 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is screen-length disable
+%Oct 11 00:25:21:366 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is copy flash:/startup.cfg flash:/startup_bkp_20261011.cfg
+%Oct 11 00:25:35:545 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is system-view
+%Oct 11 00:25:38:100 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is sysname HPV191024GJE006A
+%Oct 11 00:25:40:686 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface Vlan-interface 1
+%Oct 11 00:25:43:538 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is ip address 192.168.0.3 255.255.255.0
+%Oct 11 00:25:47:378 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:25:49:976 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/1
+%Oct 11 00:25:52:506 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is description UPLINK modem
+%Oct 11 00:25:55:044 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:25:57:660 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/2
+%Oct 11 00:26:00:245 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is description D-Link DIR-3040
+%Oct 11 00:26:02:875 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is undo stp edged-port
+%Oct 11 00:26:03:087 2026 HPV191024GJE006A MSTP/6/MSTP_DETECTED_TC: Instance 0's port GigabitEthernet1/0/2 detected a topology change.
+%Oct 11 00:26:05:410 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:07:957 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/3
+%Oct 11 00:26:10:526 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is description DVR
+%Oct 11 00:26:13:313 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:15:865 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/4
+%Oct 11 00:26:18:325 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is description impressora
+%Oct 11 00:26:20:883 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:23:538 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/5
+%Oct 11 00:26:26:193 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is description i5-3330
+%Oct 11 00:26:28:809 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:31:347 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/2
+%Oct 11 00:26:32:945 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:26:34:567 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:36:188 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/3
+%Oct 11 00:26:37:766 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:26:39:372 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:40:995 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/4
+%Oct 11 00:26:42:587 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:26:44:181 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:45:826 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/5
+%Oct 11 00:26:47:406 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:26:48:995 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:50:635 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/6
+%Oct 11 00:26:52:217 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:26:53:805 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:26:55:447 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/7
+%Oct 11 00:26:57:035 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:26:58:633 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:00:267 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/8
+%Oct 11 00:27:01:857 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:03:453 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:05:076 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/9
+%Oct 11 00:27:06:666 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:08:266 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:09:925 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/10
+%Oct 11 00:27:11:517 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:13:097 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:14:756 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/11
+%Oct 11 00:27:16:359 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:17:934 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:19:565 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/12
+%Oct 11 00:27:21:156 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:22:745 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:24:394 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/13
+%Oct 11 00:27:26:006 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:27:591 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:29:225 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/14
+%Oct 11 00:27:30:846 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:32:435 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:34:057 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/15
+%Oct 11 00:27:35:676 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:37:261 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:38:886 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/16
+%Oct 11 00:27:40:496 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:42:073 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:43:716 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/17
+%Oct 11 00:27:45:335 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:46:915 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:48:580 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/18
+%Oct 11 00:27:50:176 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:51:771 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:53:395 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/19
+%Oct 11 00:27:54:995 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:27:56:587 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:27:58:216 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/20
+%Oct 11 00:27:59:797 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:01:401 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:03:025 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/21
+%Oct 11 00:28:04:639 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:06:253 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:07:875 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/22
+%Oct 11 00:28:09:475 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:11:072 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:12:705 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/23
+%Oct 11 00:28:14:306 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:15:900 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:17:525 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/24
+%Oct 11 00:28:19:105 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:20:714 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:22:335 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/25
+%Oct 11 00:28:23:948 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:25:545 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:27:175 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/26
+%Oct 11 00:28:28:758 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:30:345 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:31:975 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/27
+%Oct 11 00:28:33:593 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:35:160 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:36:807 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is interface GigabitEthernet 1/0/28
+%Oct 11 00:28:38:418 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is broadcast-suppression 5
+%Oct 11 00:28:40:007 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:41:606 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:28:44:170 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is save
+%Oct 11 00:29:08:805 2026 HPV191024GJE006A CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=6-CommandSource=1-ConfigSource=2-ConfigDestination=4; Configuration is changed.
+%Oct 11 00:29:08:805 2026 HPV191024GJE006A CFM/5/CFM_SAVECONFIG_SUCCESSFULLY: Configuration is saved successfully.
+%Oct 11 00:29:16:768 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is reset counters interface
+%Oct 11 00:29:19:484 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is display ip interface brief
+%Oct 11 00:29:22:544 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is display interface brief
+%Oct 11 00:29:26:695 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is display saved-configuration
+%Oct 11 00:29:34:653 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is ping -c 3 192.168.0.1
+%Oct 11 00:29:35:728 2026 HPV191024GJE006A PING/6/PING_LOG: 192.168.0.1 ping statistics: 3 packet(s) transmitted; 3 packet(s) received; packet loss: 0.00%; round-trip min/avg/max = 3/4/5 ms.
+%Oct 11 00:29:42:790 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=au0-IPAddr=**-User=admin; Command is quit
+%Oct 11 00:29:43:370 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from aux0.
+%Oct 11 00:35:41:999 2026 HPV191024GJE006A CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=7-CommandSource=2-ConfigSource=4-ConfigDestination=2; Configuration is changed.
+%Oct 11 01:53:04:812 2026 HPV191024GJE006A WEB/4/WEBOPT_LOGOUT: admin logged out from 192.168.0.92
+%Oct 11 01:53:11:808 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 01:53:11:808 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 01:53:11:809 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 01:53:11:810 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 01:53:11:811 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 01:53:11:812 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 01:53:11:825 2026 HPV191024GJE006A WEB/4/WEBOPT_LOGIN_SUC: admin logged in from 192.168.0.92
+%Oct 11 01:59:05:331 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 01:59:27:038 2026 HPV191024GJE006A PKEY/6/PKEY_CREATE_HOST_KEY_SUCC: Created the host key pair successfully.
+%Oct 11 02:01:27:558 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:04:05:289 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:05:41:992 2026 HPV191024GJE006A CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=8-CommandSource=2-ConfigSource=4-ConfigDestination=2; Configuration is changed.
+%Oct 11 02:05:50:449 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:06:21:497 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:07:49:590 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:07:49:590 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:07:49:591 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:07:49:591 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:07:49:593 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:07:49:593 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:07:49:608 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:07:49:714 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:08:12:907 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:08:43:046 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is system-view
+%Oct 11 02:08:55:442 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is ip http enable
+%Oct 11 02:09:00:947 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:09:04:927 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is save force
+%Oct 11 02:09:05:237 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:09:07:342 2026 HPV191024GJE006A CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=9-CommandSource=1-ConfigSource=2-ConfigDestination=4; Configuration is changed.
+%Oct 11 02:09:07:343 2026 HPV191024GJE006A CFM/5/CFM_SAVECONFIG_SUCCESSFULLY: Configuration is saved successfully.
+%Oct 11 02:09:12:392 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:09:12:393 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:09:12:402 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:09:35:675 2026 HPV191024GJE006A WEB/4/WEBOPT_LOGOUT: admin logged out from 192.168.0.92
+%Oct 11 02:09:44:872 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:09:44:873 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:09:44:873 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:09:44:874 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:09:44:875 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:09:44:876 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:09:44:889 2026 HPV191024GJE006A WEB/4/WEBOPT_LOGIN_SUC: admin logged in from 192.168.0.92
+%Oct 11 02:14:05:293 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:14:13:054 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:15:41:982 2026 HPV191024GJE006A CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=10-CommandSource=2-ConfigSource=4-ConfigDestination=2; Configuration is changed.
+%Oct 11 02:17:46:136 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:17:46:137 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:17:46:137 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:17:46:138 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:17:46:139 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:17:46:139 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:17:46:158 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:17:46:264 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:17:51:373 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:17:51:378 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:18:03:434 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:18:03:435 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:18:03:436 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:18:03:436 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:18:03:437 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:18:03:438 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:18:03:454 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:18:03:554 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:18:03:978 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:18:05:359 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is screen-length disable
+%Oct 11 02:18:05:886 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display version
+%Oct 11 02:18:07:050 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface GigabitEthernet 1/0/11
+%Oct 11 02:18:07:678 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface GigabitEthernet 1/0/13
+%Oct 11 02:18:08:228 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display current-configuration
+%Oct 11 02:18:09:421 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is dir
+%Oct 11 02:18:10:013 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:18:10:018 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:18:24:138 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:18:24:139 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:18:24:139 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:18:24:140 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:18:24:144 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:18:24:145 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:18:24:161 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:18:24:264 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:18:24:688 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:18:26:071 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is screen-length disable
+%Oct 11 02:18:26:645 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface brief
+%Oct 11 02:18:27:285 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display logbuffer
+%Oct 11 02:18:29:733 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display loopback-detection
+%Oct 11 02:18:30:243 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display stp brief
+%Oct 11 02:18:30:790 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display mac-address
+%Oct 11 02:18:31:265 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is system-view
+%Oct 11 02:18:31:763 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/11
+%Oct 11 02:18:35:590 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:18:36:048 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:18:36:643 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:18:36:648 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:19:05:238 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:19:31:745 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:19:31:745 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:19:31:746 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:19:31:746 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:19:31:747 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:19:31:748 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:19:31:764 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:19:31:864 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:19:32:287 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:19:33:656 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is screen-length disable
+%Oct 11 02:19:34:140 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is save flash:/startup_bkp_pre_energia_20261011.cfg
+%Oct 11 02:19:36:617 2026 HPV191024GJE006A CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=11-CommandSource=1-ConfigSource=2-ConfigDestination=5; Configuration is changed.
+%Oct 11 02:19:36:618 2026 HPV191024GJE006A CFM/5/CFM_SAVECONFIG_SUCCESSFULLY: Configuration is saved successfully.
+%Oct 11 02:19:37:090 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is dir
+%Oct 11 02:19:37:605 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display startup
+%Oct 11 02:19:38:035 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is system-view
+%Oct 11 02:19:38:517 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/1
+%Oct 11 02:19:38:989 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:19:39:001 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/1 link status is DOWN.
+%Oct 11 02:19:42:072 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/1 link status is UP.
+%Oct 11 02:20:11:962 2026 HPV191024GJE006A MSTP/6/MSTP_FORWARDING: Instance 0's port GigabitEthernet1/0/1 has been set to forwarding state.
+%Oct 11 02:20:11:963 2026 HPV191024GJE006A MSTP/6/MSTP_DETECTED_TC: Instance 0's port GigabitEthernet1/0/1 detected a topology change.
+%Oct 11 02:20:20:025 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:21:513 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/2
+%Oct 11 02:20:21:979 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:21:992 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/2 link status is DOWN.
+%Oct 11 02:20:22:424 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:22:912 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/3
+%Oct 11 02:20:23:381 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:23:394 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/3 link status is DOWN.
+%Oct 11 02:20:23:824 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:24:320 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/4
+%Oct 11 02:20:24:553 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/2 link status is UP.
+%Oct 11 02:20:24:779 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:24:792 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/4 link status is DOWN.
+%Oct 11 02:20:25:223 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:25:710 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/5
+%Oct 11 02:20:26:189 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/3 link status is UP.
+%Oct 11 02:20:26:202 2026 HPV191024GJE006A MSTP/6/MSTP_FORWARDING: Instance 0's port GigabitEthernet1/0/3 has been set to forwarding state.
+%Oct 11 02:20:26:213 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:26:222 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/5 link status is DOWN.
+%Oct 11 02:20:26:676 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:27:170 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/6
+%Oct 11 02:20:27:633 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:28:087 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:28:292 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/4 link status is UP.
+%Oct 11 02:20:28:303 2026 HPV191024GJE006A MSTP/6/MSTP_FORWARDING: Instance 0's port GigabitEthernet1/0/4 has been set to forwarding state.
+%Oct 11 02:20:28:530 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:28:973 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:29:468 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/7
+%Oct 11 02:20:29:927 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:30:380 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:30:835 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:31:284 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:31:769 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/8
+%Oct 11 02:20:32:225 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:32:679 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:33:128 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:33:574 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:34:062 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/9
+%Oct 11 02:20:34:531 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:34:987 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:35:435 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:35:877 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:36:367 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/10
+%Oct 11 02:20:36:826 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:37:272 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:37:715 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:38:157 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:38:642 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/11
+%Oct 11 02:20:39:099 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:39:473 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/5 link status is UP.
+%Oct 11 02:20:39:483 2026 HPV191024GJE006A MSTP/6/MSTP_FORWARDING: Instance 0's port GigabitEthernet1/0/5 has been set to forwarding state.
+%Oct 11 02:20:39:555 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:40:004 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:40:449 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:40:942 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/12
+%Oct 11 02:20:41:401 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:41:852 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:42:301 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:42:743 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:43:230 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/13
+%Oct 11 02:20:43:694 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:44:156 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:44:602 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:45:045 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:45:533 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/14
+%Oct 11 02:20:46:000 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:46:448 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:46:897 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:47:348 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:47:834 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/15
+%Oct 11 02:20:48:300 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:48:748 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:49:193 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:49:640 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:50:133 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/16
+%Oct 11 02:20:50:602 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:51:052 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:51:499 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:51:959 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:52:441 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/17
+%Oct 11 02:20:52:898 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:53:351 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:53:801 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:53:962 2026 HPV191024GJE006A MSTP/6/MSTP_FORWARDING: Instance 0's port GigabitEthernet1/0/2 has been set to forwarding state.
+%Oct 11 02:20:53:962 2026 HPV191024GJE006A MSTP/6/MSTP_DETECTED_TC: Instance 0's port GigabitEthernet1/0/2 detected a topology change.
+%Oct 11 02:20:54:247 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:54:736 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/18
+%Oct 11 02:20:55:202 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:55:652 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:56:096 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:56:539 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:57:023 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/19
+%Oct 11 02:20:57:491 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:20:57:944 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:20:58:401 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:20:58:855 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:20:59:346 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/20
+%Oct 11 02:20:59:811 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:00:261 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:00:710 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:01:162 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:01:649 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/21
+%Oct 11 02:21:02:110 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:02:561 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:03:007 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:03:449 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:03:943 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/22
+%Oct 11 02:21:04:404 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:04:859 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:05:309 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:05:761 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:06:254 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/23
+%Oct 11 02:21:06:720 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:07:175 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:07:620 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:08:065 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:08:552 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/24
+%Oct 11 02:21:09:016 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:09:461 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:09:913 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:10:354 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:10:840 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/25
+%Oct 11 02:21:11:297 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:11:755 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:12:203 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:12:640 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:13:139 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/26
+%Oct 11 02:21:13:604 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:14:061 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:14:513 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:14:958 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:15:437 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/27
+%Oct 11 02:21:15:899 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:16:355 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:16:810 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:17:248 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:17:737 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/28
+%Oct 11 02:21:18:198 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is port auto-power-down
+%Oct 11 02:21:18:653 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is description NAO_USADA
+%Oct 11 02:21:19:106 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is shutdown
+%Oct 11 02:21:19:548 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:20:004 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:21:20:582 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface brief
+%Oct 11 02:21:21:174 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:21:21:179 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:22:09:052 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:22:09:052 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:22:09:053 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:22:09:053 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:22:09:056 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:22:09:056 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:22:09:071 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:22:09:174 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:22:09:597 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:22:10:985 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is screen-length disable
+%Oct 11 02:22:11:513 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is reset counters interface GigabitEthernet 1/0/11
+%Oct 11 02:22:12:033 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is reset counters interface GigabitEthernet 1/0/13
+%Oct 11 02:22:12:613 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface GigabitEthernet 1/0/11
+%Oct 11 02:22:13:245 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface GigabitEthernet 1/0/13
+%Oct 11 02:22:13:718 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is system-view
+%Oct 11 02:22:14:209 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/5
+%Oct 11 02:22:14:665 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is virtual-cable-test
+%Oct 11 02:22:22:748 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/5 link status is DOWN.
+%Oct 11 02:22:32:565 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is speed auto
+%Oct 11 02:22:33:390 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:22:33:853 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:22:34:462 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface GigabitEthernet 1/0/5
+%Oct 11 02:22:35:053 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:22:35:058 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:22:36:008 2026 HPV191024GJE006A IFNET/3/LINK_UPDOWN: GigabitEthernet1/0/5 link status is UP.
+%Oct 11 02:22:36:019 2026 HPV191024GJE006A MSTP/6/MSTP_FORWARDING: Instance 0's port GigabitEthernet1/0/5 has been set to forwarding state.
+%Oct 11 02:23:00:268 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:23:00:269 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:23:00:269 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:23:00:270 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:23:00:273 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:23:00:273 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:23:00:288 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:23:00:383 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:23:00:810 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:23:02:186 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is screen-length disable
+%Oct 11 02:23:02:755 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface brief
+%Oct 11 02:23:03:400 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display logbuffer
+%Oct 11 02:23:05:903 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:23:05:908 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:23:23:856 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:23:23:857 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:23:23:857 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:23:23:858 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:23:23:859 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:23:23:860 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:23:23:876 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:23:23:973 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:23:24:404 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:23:25:768 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is screen-length disable
+%Oct 11 02:23:26:223 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is save force
+%Oct 11 02:23:28:618 2026 HPV191024GJE006A CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=12-CommandSource=1-ConfigSource=2-ConfigDestination=4; Configuration is changed.
+%Oct 11 02:23:28:618 2026 HPV191024GJE006A CFM/5/CFM_SAVECONFIG_SUCCESSFULLY: Configuration is saved successfully.
+%Oct 11 02:23:29:219 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface brief
+%Oct 11 02:23:29:802 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display mac-address interface GigabitEthernet 1/0/5
+%Oct 11 02:23:30:387 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display current-configuration interface GigabitEthernet 1/0/5
+%Oct 11 02:23:30:944 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display current-configuration interface GigabitEthernet 1/0/11
+%Oct 11 02:23:31:439 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is dir
+%Oct 11 02:23:32:033 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:23:32:038 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:24:05:256 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:25:41:993 2026 HPV191024GJE006A CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=13-CommandSource=2-ConfigSource=4-ConfigDestination=2; Configuration is changed.
+%Oct 11 02:29:05:285 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:33:54:469 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:33:54:470 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:33:54:470 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:33:54:471 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:33:54:474 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:33:54:474 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:33:54:489 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:33:54:594 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:33:55:046 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:33:56:468 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is screen-length disable
+%Oct 11 02:33:56:994 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display mirroring-group all
+%Oct 11 02:33:57:510 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display port-isolate group
+%Oct 11 02:33:58:130 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display link-aggregation summary
+%Oct 11 02:33:58:709 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display lldp neighbor-information brief
+%Oct 11 02:33:59:321 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display stp interface GigabitEthernet 1/0/11
+%Oct 11 02:33:59:879 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display stp interface GigabitEthernet 1/0/13
+%Oct 11 02:34:00:435 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display stp interface GigabitEthernet 1/0/12
+%Oct 11 02:34:00:969 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display port-security
+%Oct 11 02:34:01:587 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display mac-address blackhole
+%Oct 11 02:34:02:172 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display current-configuration | include 1/0/1[13]
+%Oct 11 02:34:03:014 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is system-view
+%Oct 11 02:34:03:854 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/11
+%Oct 11 02:34:04:311 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is virtual-cable-test
+%Oct 11 02:34:04:750 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:34:05:277 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user  (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:34:05:306 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/13
+%Oct 11 02:34:05:738 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is virtual-cable-test
+%Oct 11 02:34:06:198 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:34:06:692 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is interface GigabitEthernet 1/0/12
+%Oct 11 02:34:07:148 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is virtual-cable-test
+%Oct 11 02:34:07:592 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:34:08:046 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is quit
+%Oct 11 02:34:08:643 2026 HPV191024GJE006A SHELL/5/SHELL_LOGOUT: admin logged out from 192.168.0.92.
+%Oct 11 02:34:08:649 2026 HPV191024GJE006A SSH/6/SSH_CONNECTION_CLOSE: STEL user admin (IP: 192.168.0.92) logged out because the SSH client closed the connection.
+%Oct 11 02:34:20:601 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:34:20:601 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHEN-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:34:20:602 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:34:20:603 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=AUTHOR-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:34:20:604 2026 HPV191024GJE006A SC/6/SC_AAA_LAUNCH: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA launched.
+%Oct 11 02:34:20:605 2026 HPV191024GJE006A SC/6/SC_AAA_SUCCESS: -AAAType=ACCOUNT-AAAScheme= local-Service=login-UserName=admin@system; AAA is successful.
+%Oct 11 02:34:20:623 2026 HPV191024GJE006A SSH/6/SSH_LOGIN: STEL user admin (IP: 192.168.0.92) logged in successfully.
+%Oct 11 02:34:20:725 2026 HPV191024GJE006A SHELL/5/SHELL_LOGIN: admin logged in from 192.168.0.92.
+%Oct 11 02:34:20:847 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is _cmdline-mode on
+%Oct 11 02:34:21:165 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is screen-length disable
+%Oct 11 02:34:21:331 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display version
+%Oct 11 02:34:21:536 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display device manuinfo
+%Oct 11 02:34:21:742 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display current-configuration
+%Oct 11 02:34:22:834 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display saved-configuration
+%Oct 11 02:34:23:405 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display interface brief
+%Oct 11 02:34:23:742 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is dir flash:/
+%Oct 11 02:34:23:972 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display vlan all
+%Oct 11 02:34:24:182 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display ip interface brief
+%Oct 11 02:34:24:350 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display clock
+%Oct 11 02:34:24:565 2026 HPV191024GJE006A SHELL/6/SHELL_CMD: -Task=vt0-IPAddr=192.168.0.92-User=admin; Command is display mac-address
+<HPV191024GJE006A>
