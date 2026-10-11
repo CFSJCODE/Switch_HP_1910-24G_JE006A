@@ -1,0 +1,476 @@
+﻿Alteracao do switch SWPZCPD01 (HP V1910-24G) - 2026-10-10 - via COM6 38400 8N1
+Log completo da sessao de console (comandos e respostas)
+==========================================================================
+
+
+Login authentication
+
+
+Username:
+admin
+Password:
+
+<SWPZCPD01>
+#May  8 04:31:00:915 2000 SWPZCPD01 SHELL/4/LOGIN: 
+ Trap 1.3.6.1.4.1.25506.2.2.1.1.3.0.1:admin login from Console
+%May  8 04:31:01:055 2000 SWPZCPD01 SHELL/5/SHELL_LOGIN: admin logged in from aux0.
+_cmdline-mode on
+All commands can be displayed and executed. Continue? [Y/N]
+Y
+Please input password:
+******
+Warning: Now you enter an all-command mode for developer's testing, some commands may affect operation by wrong use, please carefully use it with our engineer's direction.
+<SWPZCPD01>
+screen-length disable
+% Screen-length configuration is disabled for current user.
+<SWPZCPD01>
+undo terminal monitor
+Info: Current terminal monitor is off.
+
+<SWPZCPD01>
+dir
+Directory of flash:/
+
+   0     -rw-      7999  May 05 2000 10:53:03   config.cwmp
+   1     -rw-      2713  May 05 2000 10:53:04   startup.cfg
+   2     -rw-  14586920  Sep 02 2013 09:28:03   v1910-cmw520-r1513p62.bin
+   3     drw-         -  Apr 26 2000 12:00:04   logfile
+
+97920 KB total (77258 KB free)
+
+<SWPZCPD01>
+copy flash:/startup.cfg flash:/startup_bkp_20261010.cfg
+Copy flash:/startup.cfg to flash:/startup_bkp_20261010.cfg?[Y/N]:
+Y
+.
+%Copy file flash:/startup.cfg to flash:/startup_bkp_20261010.cfg...Done.
+<SWPZCPD01>
+system-view
+System View: return to User View with Ctrl+Z.
+[SWPZCPD01]
+interface GigabitEthernet1/0/1
+[SWPZCPD01-GigabitEthernet1/0/1]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/1]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/5
+[SWPZCPD01-GigabitEthernet1/0/5]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/5]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/7
+[SWPZCPD01-GigabitEthernet1/0/7]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/7]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/8
+[SWPZCPD01-GigabitEthernet1/0/8]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/8]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/11
+[SWPZCPD01-GigabitEthernet1/0/11]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/11]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/13
+[SWPZCPD01-GigabitEthernet1/0/13]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/13]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/14
+[SWPZCPD01-GigabitEthernet1/0/14]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/14]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/16
+[SWPZCPD01-GigabitEthernet1/0/16]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/16]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/17
+[SWPZCPD01-GigabitEthernet1/0/17]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/17]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/20
+[SWPZCPD01-GigabitEthernet1/0/20]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/20]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/23
+[SWPZCPD01-GigabitEthernet1/0/23]
+undo port access vlan
+[SWPZCPD01-GigabitEthernet1/0/23]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/24
+[SWPZCPD01-GigabitEthernet1/0/24]
+undo port hybrid vlan 111
+ Please wait... Done.
+[SWPZCPD01-GigabitEthernet1/0/24]
+port link-type access
+ Please wait... Done.
+[SWPZCPD01-GigabitEthernet1/0/24]
+quit
+[SWPZCPD01]
+undo vlan 111
+[SWPZCPD01]
+interface Vlan-interface1
+[SWPZCPD01-Vlan-interface1]
+ip address 192.168.0.3 255.255.252.0
+[SWPZCPD01-Vlan-interface1]
+quit
+[SWPZCPD01]
+interface GigabitEthernet1/0/1
+[SWPZCPD01-GigabitEthernet1/0/1]
+description UPLINK
+[SWPZCPD01-GigabitEthernet1/0/1]
+undo stp edged-port
+[SWPZCPD01-GigabitEthernet1/0/1]
+quit
+[SWPZCPD01]
+display vlan all
+ VLAN ID: 1
+ VLAN Type: static
+ Route Interface: configured
+ IP Address: 192.168.0.3
+ Subnet Mask: 255.255.252.0
+ Description: VLAN 0001
+ Name: VLAN 0001
+ Tagged   Ports: none
+ Untagged Ports:
+    GigabitEthernet1/0/1     GigabitEthernet1/0/2     GigabitEthernet1/0/3
+    GigabitEthernet1/0/4     GigabitEthernet1/0/5     GigabitEthernet1/0/6
+    GigabitEthernet1/0/7     GigabitEthernet1/0/8     GigabitEthernet1/0/9
+    GigabitEthernet1/0/10    GigabitEthernet1/0/11    GigabitEthernet1/0/12
+    GigabitEthernet1/0/13    GigabitEthernet1/0/14    GigabitEthernet1/0/15
+    GigabitEthernet1/0/16    GigabitEthernet1/0/17    GigabitEthernet1/0/18
+    GigabitEthernet1/0/19    GigabitEthernet1/0/20    GigabitEthernet1/0/21
+    GigabitEthernet1/0/22    GigabitEthernet1/0/23    GigabitEthernet1/0/24
+    GigabitEthernet1/0/25    GigabitEthernet1/0/26    GigabitEthernet1/0/27
+    GigabitEthernet1/0/28
+
+[SWPZCPD01]
+display interface brief
+The brief information of interface(s) under route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Main IP         Description
+NULL0                UP   UP(s)    --
+Vlan1                UP   UP       192.168.0.3
+
+The brief information of interface(s) under bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed or Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed   Duplex Type PVID Description
+GE1/0/1              UP   1G(a)   F(a)   A    1    UPLINK
+GE1/0/2              DOWN auto    A      A    1
+GE1/0/3              DOWN auto    A      A    1
+GE1/0/4              DOWN auto    A      A    1
+GE1/0/5              UP   1G(a)   F(a)   A    1
+GE1/0/6              DOWN auto    A      A    1
+GE1/0/7              UP   1G(a)   F(a)   A    1
+GE1/0/8              DOWN auto    A      A    1
+GE1/0/9              DOWN auto    A      A    1
+GE1/0/10             DOWN auto    A      A    1
+GE1/0/11             UP   1G(a)   F(a)   A    1
+GE1/0/12             DOWN auto    A      A    1
+GE1/0/13             DOWN auto    A      A    1
+GE1/0/14             DOWN auto    A      A    1
+GE1/0/15             DOWN auto    A      A    1
+GE1/0/16             DOWN auto    A      A    1
+GE1/0/17             DOWN auto    A      A    1
+GE1/0/18             DOWN auto    A      A    1
+GE1/0/19             DOWN auto    A      A    1
+GE1/0/20             DOWN auto    A      A    1
+GE1/0/21             DOWN auto    A      A    1
+GE1/0/22             DOWN auto    A      A    1
+GE1/0/23             DOWN auto    A      A    1
+GE1/0/24             DOWN auto    A      A    1
+GE1/0/25             DOWN auto    A      A    1
+GE1/0/26             DOWN auto    A      A    1
+GE1/0/27             DOWN auto    A      A    1
+GE1/0/28             DOWN auto    A      A    1
+
+[SWPZCPD01]
+display ip interface brief
+*down: administratively down
+(s): spoofing
+Interface                     Physical Protocol IP Address      Description
+Vlan-interface1               up       up       192.168.0.3     Vlan-inte...
+[SWPZCPD01]
+ping -c 3 192.168.1.254
+  PING 192.168.1.254: 56  data bytes, press CTRL_C to break
+    Request time out
+    Request time out
+    Request time out
+
+  --- 192.168.1.254 ping statistics ---
+    3 packet(s) transmitted
+    0 packet(s) received
+    100.00% packet loss
+
+[SWPZCPD01]
+save
+The current configuration will be written to the device. Are you sure? [Y/N]:
+Y
+Please input the file name(*.cfg)[flash:/startup.cfg]
+(To leave the existing filename unchanged, press the enter key):
+
+flash:/startup.cfg exists, overwrite? [Y/N]:
+Y
+ Validating file. Please wait....
+ Saved the current configuration to mainboard device successfully.
+ Configuration is saved to device successfully.
+[SWPZCPD01]
+quit
+<SWPZCPD01>
+display saved-configuration
+#
+ version 5.20, Release 1513P62
+#
+ sysname SWPZCPD01
+#
+ domain default enable system
+#
+ ip ttl-expires enable
+#
+ password-recovery enable
+#
+vlan 1
+#
+domain system
+ access-limit disable
+ state active
+ idle-cut disable
+ self-service-url disable
+#
+user-group system
+#
+local-user admin
+ authorization-attribute level 3
+ service-type ssh telnet terminal
+ service-type web
+#
+ stp mode rstp
+ stp enable
+#
+interface NULL0
+#
+interface Vlan-interface1
+ ip address 192.168.0.3 255.255.252.0
+#
+interface GigabitEthernet1/0/1
+ description UPLINK
+#
+interface GigabitEthernet1/0/2
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/3
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/4
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/5
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/6
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/7
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/8
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/9
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/10
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/11
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/12
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/13
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/14
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/15
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/16
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/17
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/18
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/19
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/20
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/21
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/22
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/23
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/24
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/25
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/26
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/27
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/28
+ stp edged-port enable
+#
+ ip route-static 0.0.0.0 0.0.0.0 192.168.1.254
+#
+user-interface aux 0
+ authentication-mode scheme
+user-interface vty 0 15
+ authentication-mode scheme
+#
+return
+<SWPZCPD01>
+quit
+******************************************************************************
+* Copyright (c) 2010-2013 Hewlett-Packard Development Company, L.P.          *
+* Without the owner's prior written consent,                                 *
+* no decompiling or reverse-engineering shall be allowed.                    *
+******************************************************************************
+
+User interface aux0 is available.
+
+
+
+Please press ENTER.
+
+
+
+==========================================================================
+Segunda alteracao: gateway 192.168.1.254 -> 192.168.0.1
+==========================================================================
+
+
+Login authentication
+
+
+Username:
+admin
+Password:
+
+<SWPZCPD01>
+#May  8 04:38:23:935 2000 SWPZCPD01 SHELL/4/LOGIN: 
+ Trap 1.3.6.1.4.1.25506.2.2.1.1.3.0.1:admin login from Console
+%May  8 04:38:24:075 2000 SWPZCPD01 SHELL/5/SHELL_LOGIN: admin logged in from aux0.
+_cmdline-mode on
+All commands can be displayed and executed. Continue? [Y/N]
+Y
+Please input password:
+******
+Warning: Now you enter an all-command mode for developer's testing, some commands may affect operation by wrong use, please carefully use it with our engineer's direction.
+<SWPZCPD01>
+screen-length disable
+% Screen-length configuration is disabled for current user.
+<SWPZCPD01>
+undo terminal monitor
+Info: Current terminal monitor is off.
+
+<SWPZCPD01>
+system-view
+System View: return to User View with Ctrl+Z.
+[SWPZCPD01]
+undo ip route-static 0.0.0.0 0.0.0.0 192.168.1.254
+[SWPZCPD01]
+ip route-static 0.0.0.0 0.0.0.0 192.168.0.1
+[SWPZCPD01]
+display ip routing-table
+Routing Tables: Public
+	Destinations : 5	Routes : 5
+
+Destination/Mask    Proto  Pre  Cost         NextHop         Interface
+
+0.0.0.0/0           Static 60   0            192.168.0.1     Vlan1
+127.0.0.0/8         Direct 0    0            127.0.0.1       InLoop0
+127.0.0.1/32        Direct 0    0            127.0.0.1       InLoop0
+192.168.0.0/22      Direct 0    0            192.168.0.3     Vlan1
+192.168.0.3/32      Direct 0    0            127.0.0.1       InLoop0
+
+[SWPZCPD01]
+ping -c 3 192.168.0.1
+  PING 192.168.0.1: 56  data bytes, press CTRL_C to break
+    Reply from 192.168.0.1: bytes=56 Sequence=1 ttl=64 time=3 ms
+    Reply from 192.168.0.1: bytes=56 Sequence=2 ttl=64 time=3 ms
+    Reply from 192.168.0.1: bytes=56 Sequence=3 ttl=64 time=3 ms
+
+  --- 192.168.0.1 ping statistics ---
+    3 packet(s) transmitted
+    3 packet(s) received
+    0.00% packet loss
+    round-trip min/avg/max = 3/3/3 ms
+
+[SWPZCPD01]
+save
+The current configuration will be written to the device. Are you sure? [Y/N]:
+Y
+Please input the file name(*.cfg)[flash:/startup.cfg]
+(To leave the existing filename unchanged, press the enter key):
+
+flash:/startup.cfg exists, overwrite? [Y/N]:
+Y
+ Validating file. Please wait....
+ Saved the current configuration to mainboard device successfully.
+ Configuration is saved to device successfully.
+[SWPZCPD01]
+quit
+<SWPZCPD01>
+display saved-configuration | include route-static
+ ip route-static 0.0.0.0 0.0.0.0 192.168.0.1
+<SWPZCPD01>
+quit
+******************************************************************************
+* Copyright (c) 2010-2013 Hewlett-Packard Development Company, L.P.          *
+* Without the owner's prior written consent,                                 *
+* no decompiling or reverse-engineering shall be allowed.                    *
+******************************************************************************
+
+User interface aux0 is available.
+
+
+
+Please press ENTER.
+
+

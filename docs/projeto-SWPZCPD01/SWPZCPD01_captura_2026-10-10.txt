@@ -1,0 +1,286 @@
+﻿Captura do switch HP V1910-24G (JE006A) - hostname SWPZCPD01
+Data: 2026-10-10 | Porta: COM6 (CH340), 38400 8N1, sem controle de fluxo
+Somente leitura: nenhuma configuracao foi alterada ou salva.
+==========================================================================
+
+
+Login authentication
+
+
+Username:
+admin
+Password:
+
+<SWPZCPD01>
+#May  8 04:24:12:495 2000 SWPZCPD01 SHELL/4/LOGIN: 
+ Trap 1.3.6.1.4.1.25506.2.2.1.1.3.0.1:admin login from Console
+%May  8 04:24:12:635 2000 SWPZCPD01 SHELL/5/SHELL_LOGIN: admin logged in from aux0.
+_cmdline-mode on
+All commands can be displayed and executed. Continue? [Y/N]
+Y
+Please input password:
+******
+Warning: Now you enter an all-command mode for developer's testing, some commands may affect operation by wrong use, please carefully use it with our engineer's direction.
+<SWPZCPD01>
+screen-length disable
+% Screen-length configuration is disabled for current user.
+<SWPZCPD01>
+undo terminal monitor
+Info: Current terminal monitor is off.
+
+<SWPZCPD01>
+display version
+HP Comware Platform Software
+Comware Software, Version 5.20, Release 1513P62
+Copyright (c) 2010-2013 Hewlett-Packard Development Company, L.P.
+HP V1910-24G Switch uptime is 1 week, 4 days, 16 hours, 24 minutes
+
+HP V1910-24G Switch
+128M    bytes DRAM
+128M    bytes Nand Flash Memory
+Config Register points to Nand Flash
+
+Hardware Version is REV.B
+CPLD Version is 002
+Bootrom Version is 163
+[SubSlot 0] 24GE+4SFP Hardware Version is REV.B
+
+<SWPZCPD01>
+display current-configuration
+#
+ version 5.20, Release 1513P62
+#
+ sysname SWPZCPD01
+#
+ domain default enable system
+#
+ ip ttl-expires enable
+#
+ password-recovery enable
+#
+vlan 1
+#
+vlan 111
+#
+domain system
+ access-limit disable
+ state active
+ idle-cut disable
+ self-service-url disable
+#
+user-group system
+#
+local-user admin
+ authorization-attribute level 3
+ service-type ssh telnet terminal
+ service-type web
+#
+ stp mode rstp
+ stp enable
+#
+interface NULL0
+#
+interface Vlan-interface1
+ ip address 192.168.1.50 255.255.252.0
+#
+interface GigabitEthernet1/0/1
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/2
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/3
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/4
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/5
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/6
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/7
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/8
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/9
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/10
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/11
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/12
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/13
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/14
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/15
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/16
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/17
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/18
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/19
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/20
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/21
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/22
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/23
+ port access vlan 111
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/24
+ port link-type hybrid
+ port hybrid vlan 111 tagged
+ port hybrid vlan 1 untagged
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/25
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/26
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/27
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/28
+ stp edged-port enable
+#
+ ip route-static 0.0.0.0 0.0.0.0 192.168.1.254
+#
+user-interface aux 0
+ authentication-mode scheme
+user-interface vty 0 15
+ authentication-mode scheme
+#
+return
+<SWPZCPD01>
+display interface brief
+The brief information of interface(s) under route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Main IP         Description
+NULL0                UP   UP(s)    --
+Vlan1                DOWN DOWN     192.168.1.50
+
+The brief information of interface(s) under bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed or Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed   Duplex Type PVID Description
+GE1/0/1              UP   1G(a)   F(a)   A    111
+GE1/0/2              DOWN auto    A      A    1
+GE1/0/3              DOWN auto    A      A    1
+GE1/0/4              DOWN auto    A      A    1
+GE1/0/5              UP   1G(a)   F(a)   A    111
+GE1/0/6              DOWN auto    A      A    1
+GE1/0/7              UP   1G(a)   F(a)   A    111
+GE1/0/8              DOWN auto    A      A    111
+GE1/0/9              DOWN auto    A      A    1
+GE1/0/10             DOWN auto    A      A    1
+GE1/0/11             UP   1G(a)   F(a)   A    111
+GE1/0/12             DOWN auto    A      A    1
+GE1/0/13             DOWN auto    A      A    111
+GE1/0/14             DOWN auto    A      A    111
+GE1/0/15             DOWN auto    A      A    1
+GE1/0/16             DOWN auto    A      A    111
+GE1/0/17             DOWN auto    A      A    111
+GE1/0/18             DOWN auto    A      A    1
+GE1/0/19             DOWN auto    A      A    1
+GE1/0/20             DOWN auto    A      A    111
+GE1/0/21             DOWN auto    A      A    1
+GE1/0/22             DOWN auto    A      A    1
+GE1/0/23             DOWN auto    A      A    111
+GE1/0/24             DOWN auto    A      H    1
+GE1/0/25             DOWN auto    A      A    1
+GE1/0/26             DOWN auto    A      A    1
+GE1/0/27             DOWN auto    A      A    1
+GE1/0/28             DOWN auto    A      A    1
+
+<SWPZCPD01>
+display vlan all
+ VLAN ID: 1
+ VLAN Type: static
+ Route Interface: configured
+ IP Address: 192.168.1.50
+ Subnet Mask: 255.255.252.0
+ Description: VLAN 0001
+ Name: VLAN 0001
+ Tagged   Ports: none
+ Untagged Ports:
+    GigabitEthernet1/0/2     GigabitEthernet1/0/3     GigabitEthernet1/0/4
+    GigabitEthernet1/0/6     GigabitEthernet1/0/9     GigabitEthernet1/0/10
+    GigabitEthernet1/0/12    GigabitEthernet1/0/15    GigabitEthernet1/0/18
+    GigabitEthernet1/0/19    GigabitEthernet1/0/21    GigabitEthernet1/0/22
+    GigabitEthernet1/0/24    GigabitEthernet1/0/25    GigabitEthernet1/0/26
+    GigabitEthernet1/0/27    GigabitEthernet1/0/28
+
+ VLAN ID: 111
+ VLAN Type: static
+ Route Interface: not configured
+ Description: VLAN 0111
+ Name: VLAN 0111
+ Tagged   Ports:
+    GigabitEthernet1/0/24
+ Untagged Ports:
+    GigabitEthernet1/0/1     GigabitEthernet1/0/5     GigabitEthernet1/0/7
+    GigabitEthernet1/0/8     GigabitEthernet1/0/11    GigabitEthernet1/0/13
+    GigabitEthernet1/0/14    GigabitEthernet1/0/16    GigabitEthernet1/0/17
+    GigabitEthernet1/0/20    GigabitEthernet1/0/23
+
+<SWPZCPD01>
+display ip interface brief
+*down: administratively down
+(s): spoofing
+Interface                     Physical Protocol IP Address      Description
+Vlan-interface1               down     down     192.168.1.50    Vlan-inte...
+<SWPZCPD01>
+quit
+******************************************************************************
+* Copyright (c) 2010-2013 Hewlett-Packard Development Company, L.P.          *
+* Without the owner's prior written consent,                                 *
+* no decompiling or reverse-engineering shall be allowed.                    *
+******************************************************************************
+
+User interface aux0 is available.
+
+
+
+Please press ENTER.
+
+
