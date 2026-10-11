@@ -1,0 +1,16 @@
+dir flash:/
+Directory of flash:/
+
+   0     -rw-      4734  Oct 11 2026 02:23:28   startup.cfg
+   1     -rw-      7837  Oct 11 2026 02:23:26   config.cwmp
+   2     -rw-      3377  Oct 11 2026 02:19:36   startup_bkp_pre_energia_20261011.cfg
+   3     -rw-      2422  Oct 11 2026 02:00:23   https-server.p12
+   4     -rw-      2357  Oct 11 2026 00:25:27   startup_bkp_20261011.cfg
+   5     -rw-      2357  Oct 10 2026 19:40:37   startup_bkp_pre_snmp_20261010.cfg
+   6     -rw-      2713  May 08 2000 04:31:54   startup_bkp_20261010.cfg
+   7     -rw-  14586920  Sep 02 2013 09:28:03   v1910-cmw520-r1513p62.bin
+   8     drw-         -  Apr 26 2000 12:00:04   logfile
+
+97920 KB total (77222 KB free)
+
+<HPV191024GJE006A>

@@ -1,0 +1,17 @@
+display version
+HP Comware Platform Software
+Comware Software, Version 5.20, Release 1513P62
+Copyright (c) 2010-2013 Hewlett-Packard Development Company, L.P.
+HP V1910-24G Switch uptime is 1 week, 5 days, 1 hour, 49 minutes
+
+HP V1910-24G Switch
+128M    bytes DRAM
+128M    bytes Nand Flash Memory
+Config Register points to Nand Flash
+
+Hardware Version is REV.B
+CPLD Version is 002
+Bootrom Version is 163
+[SubSlot 0] 24GE+4SFP Hardware Version is REV.B
+
+<HPV191024GJE006A>

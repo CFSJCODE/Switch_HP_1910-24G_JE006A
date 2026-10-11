@@ -1,0 +1,6 @@
+display startup
+MainBoard:
+ Current startup saved-configuration file: flash:/startup.cfg
+ Next main startup saved-configuration file: flash:/startup.cfg
+ Next backup startup saved-configuration file: NULL
+<HPV191024GJE006A>

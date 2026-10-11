@@ -1,0 +1,43 @@
+display interface brief
+The brief information of interface(s) under route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Main IP         Description
+NULL0                UP   UP(s)    --
+Vlan1                UP   UP       192.168.0.3
+
+The brief information of interface(s) under bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed or Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed   Duplex Type PVID Description
+GE1/0/1              UP   1G(a)   F(a)   A    1    UPLINK modem
+GE1/0/2              UP   1G(a)   F(a)   A    1    D-Link DIR-3040
+GE1/0/3              UP   1G(a)   F(a)   A    1    DVR
+GE1/0/4              UP   1G(a)   F(a)   A    1    impressora
+GE1/0/5              UP   100M(a) F(a)   A    1    i5-3330
+GE1/0/6              ADM  auto    A      A    1    NAO_USADA
+GE1/0/7              ADM  auto    A      A    1    NAO_USADA
+GE1/0/8              ADM  auto    A      A    1    NAO_USADA
+GE1/0/9              ADM  auto    A      A    1    NAO_USADA
+GE1/0/10             ADM  auto    A      A    1    NAO_USADA
+GE1/0/11             ADM  auto    A      A    1    NAO_USADA
+GE1/0/12             ADM  auto    A      A    1    NAO_USADA
+GE1/0/13             ADM  auto    A      A    1    NAO_USADA
+GE1/0/14             ADM  auto    A      A    1    NAO_USADA
+GE1/0/15             ADM  auto    A      A    1    NAO_USADA
+GE1/0/16             ADM  auto    A      A    1    NAO_USADA
+GE1/0/17             ADM  auto    A      A    1    NAO_USADA
+GE1/0/18             ADM  auto    A      A    1    NAO_USADA
+GE1/0/19             ADM  auto    A      A    1    NAO_USADA
+GE1/0/20             ADM  auto    A      A    1    NAO_USADA
+GE1/0/21             ADM  auto    A      A    1    NAO_USADA
+GE1/0/22             ADM  auto    A      A    1    NAO_USADA
+GE1/0/23             ADM  auto    A      A    1    NAO_USADA
+GE1/0/24             ADM  auto    A      A    1    NAO_USADA
+GE1/0/25             ADM  auto    A      A    1    NAO_USADA
+GE1/0/26             ADM  auto    A      A    1    NAO_USADA
+GE1/0/27             ADM  auto    A      A    1    NAO_USADA
+GE1/0/28             ADM  auto    A      A    1    NAO_USADA
+
+<HPV191024GJE006A>

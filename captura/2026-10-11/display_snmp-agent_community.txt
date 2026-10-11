@@ -1,0 +1,6 @@
+display snmp-agent community
+   Community name: <REDACTED>
+       Group name: <REDACTED>
+       Storage-type: nonVolatile
+
+<HPV191024GJE006A>

@@ -1,0 +1,17 @@
+display mac-address
+MAC ADDR        VLAN ID  STATE           PORT INDEX                AGING TIME(s)
+2c99-7562-82c8  1        LEARNED         GigabitEthernet1/0/2      AGING
+30cd-a765-d2e3  1        LEARNED         GigabitEthernet1/0/4      AGING
+4688-7625-cd35  1        LEARNED         GigabitEthernet1/0/2      AGING
+5028-4a16-d1d1  1        LEARNED         GigabitEthernet1/0/1      AGING
+76d2-17ff-f10f  1        LEARNED         GigabitEthernet1/0/2      AGING
+7898-e822-a030  1        LEARNED         GigabitEthernet1/0/2      AGING
+78dd-1233-8f64  1        LEARNED         GigabitEthernet1/0/2      AGING
+7c8b-b508-eb2b  1        LEARNED         GigabitEthernet1/0/2      AGING
+988b-0ad2-1b23  1        LEARNED         GigabitEthernet1/0/3      AGING
+c87f-54d1-abe5  1        LEARNED         GigabitEthernet1/0/1      AGING
+cc75-e2d8-28af  1        LEARNED         GigabitEthernet1/0/1      AGING
+d4f5-4705-e516  1        LEARNED         GigabitEthernet1/0/1      AGING
+
+  ---  12 MAC address(es) found  ---
+<HPV191024GJE006A>

@@ -1,0 +1,6 @@
+display ip interface brief
+*down: administratively down
+(s): spoofing
+Interface                     Physical Protocol IP Address      Description
+Vlan-interface1               up       up       192.168.0.3     Vlan-inte...
+<HPV191024GJE006A>
