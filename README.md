@@ -188,6 +188,9 @@ Para voltar ao arquivo atual: `startup saved-configuration flash:/startup.cfg` e
 | 2026-10-10 | SNMP v1/v2c somente leitura, location `CPD`, LLDP ligado | `startup_bkp_pre_snmp_20261010.cfg` | [`SWPZCPD01_comandos_e_resumo-20261010T224329-dab9.md`](docs/projeto-SWPZCPD01/SWPZCPD01_comandos_e_resumo-20261010T224329-dab9.md) |
 | 2026-10-11 | 00:25: máscara de gerência ajustada para /24 e hostname gravado. 02:08: interface web HTTP religada (`ip http enable`); HTTPS segue ativo (`ip https enable`) | `startup_bkp_20261011.cfg` | [`switch_logbuffer_20261011.txt`](logs/switch_logbuffer_20261011.txt) |
 | 2026-10-11 | `auto-power-down` nas portas 1 a 24, descrições das portas 1 a 5, portas 6 a 28 em `shutdown` com descrição `NAO_USADA`, configuração salva | `startup_bkp_pre_energia_20261011.cfg` | [`switch_energia_portas_20261011.log`](logs/switch_energia_portas_20261011.log) |
+| 2026-10-11 | 02:41 BRT: reboot autorizado para zerar os contadores SNMP `ifInErrors` das portas 11 e 13 (ping caiu às 02:41:23 e voltou às 02:43:49) | configuração já salva | registro externo ao repositório |
+
+A captura em `captura/2026-10-11/` foi feita às 02:36 BRT, antes do reboot, por isso mostra uptime de 1 semana e 5 dias e o logbuffer não registra o evento.
 
 ## Pendências
 
